@@ -190,7 +190,7 @@ public class RrdDb implements RrdUpdater {
 	 * obtains read or read/write access to this RRD.</p>
 	 *
 	 * @param path	 Path to existing RRD.
-	 * @param m_readOnly Should be set to <code>false</code> if you want to update
+	 * @param readOnly Should be set to <code>false</code> if you want to update
 	 *                 the underlying RRD. If you want just to fetch data from the RRD file
 	 *                 (read-only access), specify <code>true</code>. If you try to update RRD file
 	 *                 open in read-only mode (<code>m_readOnly</code> set to <code>true</code>),
@@ -208,7 +208,7 @@ public class RrdDb implements RrdUpdater {
 	 * obtains read or read/write access to this RRD.</p>
 	 *
 	 * @param path	 Path to existing RRD.
-	 * @param m_readOnly Should be set to <code>false</code> if you want to update
+	 * @param readOnly Should be set to <code>false</code> if you want to update
 	 *                 the underlying RRD. If you want just to fetch data from the RRD file
 	 *                 (read-only access), specify <code>true</code>. If you try to update RRD file
 	 *                 open in read-only mode (<code>m_readOnly</code> set to <code>true</code>),
